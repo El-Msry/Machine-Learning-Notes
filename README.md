@@ -1,35 +1,40 @@
 # Machine Learning Notes
 
-My personal summaries, notes, and code for learning machine learning. I write the notes in my own words, and I add code whenever I implement a concept to check that I actually understand it.
+My personal learning notes, summaries, and practical implementations while studying Machine Learning.
 
-## Notes
+## Learning Progress
 
-| # | Topic | Status |
-|---|-------|--------|
-| 1 | [Introduction To Machine Learning](Introduction%20To%20Machine%20Learning.md) | Done |
-| 2 | [Linear Regression](Linear%20Regression.md) | Done |
+| Topic | Notes | Practical Work | Status |
+|---|---|---|---|
+| Introduction to Machine Learning | [Read Notes](00-Introduction/Introduction%20To%20Machine%20Learning.md) | — | Completed |
+| Linear Regression | [Read Notes](01-Supervised-Learning/01-Linear-Regression/Linear%20Regression.md) | [Jupyter Notebook](01-Supervised-Learning/01-Linear-Regression/Linear%20Regression.ipynb) | In Progress |
+| Logistic Regression | — | — | Planned |
+| Model Evaluation | — | — | Planned |
+| Decision Trees | — | — | Planned |
+| Neural Networks | — | — | Planned |
 
-## Code
+## Repository Structure
 
-Code will go here as I implement each topic.
+```text
+Machine-Learning-Notes/
+├── README.md
+├── 00-Introduction/
+│   └── Introduction To Machine Learning.md
+└── 01-Supervised-Learning/
+    └── 01-Linear-Regression/
+        ├── Linear Regression.md
+        ├── Linear Regression.ipynb
+        └── kc_house_data.csv
+```
 
-| Topic | Implementation |
-|-------|----------------|
-| Linear Regression | Coming soon |
+## Current Practical Project
 
-## Roadmap
+**Linear Regression — House Price Prediction**
 
-- [x] Introduction to Machine Learning
-- [x] Linear Regression
-- [ ] Logistic Regression
-- [ ] Model evaluation (train/test split, overfitting, cross-validation)
-- [ ] Decision Trees
-- [ ] Neural Networks
-
-## Resources
-
-Courses, books, and other material I'm learning from will be listed here.
+- Dataset: `kc_house_data.csv`
+- Notebook: [Linear Regression.ipynb](01-Supervised-Learning/01-Linear-Regression/Linear%20Regression.ipynb)
+- Goal: Practice data preprocessing, feature selection, model training, and regression evaluation.
 
 ## About
 
-Maintained by [El-Msry](https://github.com/El-Msry). Computer Science & Information Systems student.
+Maintained by **El-Msry**, a Computer Science and Information Systems student learning Machine Learning step by step.
